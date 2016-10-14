@@ -1,4 +1,4 @@
-package Decorate;
+package com.myro.java.Decorate;
 
 public class Espresso extends AbsAdding {
 	

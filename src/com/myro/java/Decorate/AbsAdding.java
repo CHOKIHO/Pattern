@@ -1,4 +1,4 @@
-package Decorate;
+package com.myro.java.Decorate;
 
 abstract public class AbsAdding implements IBeverage {
 	

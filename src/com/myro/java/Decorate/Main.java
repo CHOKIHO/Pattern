@@ -1,4 +1,4 @@
-package Decorate;
+package com.myro.java.Decorate;
 
 import java.util.Scanner;
 

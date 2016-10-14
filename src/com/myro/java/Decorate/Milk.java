@@ -1,4 +1,4 @@
-package Decorate;
+package com.myro.java.Decorate;
 
 public class Milk extends AbsAdding {
 
@@ -8,6 +8,7 @@ public class Milk extends AbsAdding {
 
 	@Override
 	public int getTotalPrice() {
+		
 		return super.getTotalPrice()+50;
 	}
 
