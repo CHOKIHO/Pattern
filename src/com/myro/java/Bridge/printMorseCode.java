@@ -7,20 +7,17 @@ public class printMorseCode extends MorseCode {
 	}
 
 	//print a
-	public printMorseCode a() {
+	public void a() {
 		dash();dot();dash();space();
-		return this;
 	}
 	
 	//print b
-	public printMorseCode b() {
+	public void b() {
 		dot();dash();dot();space();
-		return this;
 	}
 
 	//print c
-	public printMorseCode c() {
+	public void c() {
 		dot();dash();dash();space();
-		return this;
-		}
+	}
 }
