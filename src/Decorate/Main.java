@@ -22,6 +22,7 @@ public class Main {
 					done = true;
 				break;
 			case 1:
+				//이부분이 데코레이터의 핵심인듯...
 				beverage = new Espresso(beverage);
 			break;
 			case 2:
