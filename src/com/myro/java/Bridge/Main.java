@@ -1,4 +1,4 @@
-package com.myro.java;
+package com.myro.java.Bridge;
 
 public class Main {
 	
@@ -10,5 +10,4 @@ public class Main {
 		print.b();
 		print.c();
 	}
-
 }

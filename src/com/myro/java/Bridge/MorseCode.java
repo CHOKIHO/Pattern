@@ -1,4 +1,4 @@
-package com.myro.java;
+package com.myro.java.Bridge;
 
 public class MorseCode {
 
