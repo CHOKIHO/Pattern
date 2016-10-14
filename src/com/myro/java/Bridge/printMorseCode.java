@@ -2,6 +2,10 @@ package com.myro.java.Bridge;
 
 public class printMorseCode extends MorseCode {
 	
+	public printMorseCode(MorseCodAble codable) {
+		super(codable);
+	}
+
 	//print a
 	public printMorseCode a() {
 		dash();dot();dash();space();

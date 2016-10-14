@@ -2,15 +2,24 @@ package com.myro.java.Bridge;
 
 public class MorseCode {
 
+	MorseCodAble codable;
+	
+	public MorseCode(MorseCodAble codable) {
+		this.codable = codable;
+	}
+	
 	public void dot(){
-		System.out.print(".");
+		codable.iDot();
+		//System.out.print(".");
 
 	}
 	public void dash(){
-		System.out.print("-");
+		codable.iDash();
+//		System.out.print("-");
 	}
 	public void space(){
-		System.out.print(" ");
+		codable.iSpace();
+//		System.out.print(" ");
 		
 	}
 }
