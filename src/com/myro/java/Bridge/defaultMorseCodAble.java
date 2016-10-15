@@ -5,7 +5,6 @@ public class defaultMorseCodAble implements MorseCodAble {
 	@Override
 	public void iDot() {
 		System.out.print(".");
-
 	}
 
 	@Override
